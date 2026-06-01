@@ -227,6 +227,7 @@
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(250, 24);
             dateTimePicker1.TabIndex = 11;
+            dateTimePicker1.ValueChanged += dateTimePicker1_ValueChanged;
             // 
             // label5
             // 
@@ -420,7 +421,7 @@
             AutoScaleDimensions = new SizeF(15F, 37F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlDarkDark;
-            ClientSize = new Size(1902, 1033);
+            ClientSize = new Size(1924, 1033);
             Controls.Add(dataGridView1);
             Controls.Add(groupBox1);
             Font = new Font("Segoe UI", 16.2F);
@@ -428,6 +429,7 @@
             Margin = new Padding(6);
             Name = "FormNhanVien";
             Text = "FormNhanVien";
+            Load += FormNhanVien_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

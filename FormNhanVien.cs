@@ -130,5 +130,15 @@ namespace QLNongSan
 
             txtMaNV.Focus();
         }
+
+        private void FormNhanVien_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtpNgaySinh_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
