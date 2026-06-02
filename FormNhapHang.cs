@@ -99,5 +99,20 @@ namespace QLNongSan
         {
 
         }
+
+        private void FormNhapHang_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
